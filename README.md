@@ -22,7 +22,11 @@ to the require section of your `composer.json` file.
 
 Usage
 -----
-
+Remember to include the Sparkline.php where ever you need:
+```php
+    use mrlco\sparkline\Sparkline;
+```
+And in your view:
 ```php
 <?= \mrlco\sparkline\Sparkline::widget([
     'clientOptions' => [
