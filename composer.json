@@ -17,7 +17,8 @@
     "source": "https://github.com/mrlco/yii2-sparkline"
   },
     "require": {
-        "yiisoft/yii2": "*"
+        "yiisoft/yii2": "*",
+        "bower-asset/bower-jquery-sparkline": "~2.1.2"
     },
     "autoload": {
         "psr-4": {
